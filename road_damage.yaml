@@ -1,0 +1,9 @@
+# 训练和验证集路径
+train: china_d_m/images/train
+val: china_d_m/images/val
+
+# 类别数量（根据你的道路灾害类型调整）
+nc: 5
+
+# 道路灾害类别名称
+names: ['Longitudinal crack', 'Transverse crack', 'Mesh crack', 'Unused', 'Pothole']
